@@ -77,7 +77,7 @@ def slope_of_confirmed():
     regression_line = [(m * x) + b for x in xs]
     style.use('ggplot')
     plt.suptitle('Trendlines')
-    plt.xlabel('Days (Since 2020-01-22')
+    plt.xlabel('Days (Since 2020-01-22)')
     plt.ylabel("Cases")
     plt.plot(xs, regression_line, label='Confirmed')
     plt.legend()
